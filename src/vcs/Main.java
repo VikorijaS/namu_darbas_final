@@ -64,34 +64,39 @@ public class Main {
         int plr1ReBet = VcsUtils.inputInt();
         VcsUtils.println(player2 + " iveskite statymo suma:");
         int plr2ReBet = VcsUtils.inputInt();
+
         int plr1ReMinBet = p1Cash - plr1ReBet;
-        int plr2ReMinBet = p2Cash - plr1ReBet;
+        int plr2ReMinBet = p2Cash - plr2ReBet;
         int plr1ReReBet = VcsUtils.inputInt();
         int plr2ReReBet = VcsUtils.inputInt();
 
         boolean continueBet = true;
         while (continueBet && plr1ReReBet != plr1ReMinBet) {
-            if (plr1ReReBet < plr1ReMinBet) {
-                VcsUtils.println(player1 + ", antras statymas negali būti mažesnis nei " + plr1ReMinBet + ", ar norite baigti zaidima? (0) - ne , (1) - taip");
+            if (plr1ReReBet > plr1ReMinBet) {
+                VcsUtils.println(player1 + ", antras statymas negali būti mažesnis nei " + plr1ReBet + ", ar norite baigti zaidima? (0) - ne , (1) - taip");
                 int plr1Choice = VcsUtils.inputInt();
                 if (plr1Choice == 1) {
                     VcsUtils.println(player2 + "laimejo");
-                }
-                else {
+                    continueBet = false;
+
+                } else {
                     VcsUtils.println("Prasome paimti kredita ir testi zaidima");
-                    continueGame = false;
+                    continueBet = true;
+
                 }
             }
 
             if (plr2ReReBet > plr2ReMinBet) {
-                VcsUtils.println(player2 + ", antras statymas negali būti mažesnis nei " + plr2ReMinBet + ", ar norite baigti zaidima? (0) - ne , (1) - taip");
+                VcsUtils.println(player2 + ", antras statymas negali būti mažesnis nei " + plr2ReBet + ", ar norite baigti zaidima? (0) - ne , (1) - taip");
                 int plr2Choice = VcsUtils.inputInt();
                 if (plr2Choice == 1) {
                     VcsUtils.println(player1 + "laimejo");
-                }
-                else {
+                    continueBet = false;
+
+                } else {
                     VcsUtils.println("Prasome paimti kredita ir testi zaidima");
-                    continueGame = false;
+                    continueBet = true;
+
                 }
             }
 
@@ -142,18 +147,18 @@ public class Main {
                 VcsUtils.println(player2 + ", jusu kombinacija " + intArrayToString(plr2Hand));
             }
 
-            String laimejimas1 = VcsUtils.inputWord();
-            VcsUtils.println("Pirmo žaidėjo laimėjimas" + player1 + "pinigu likutis:" + p1Cash);
+//            String Balansas1 = VcsUtils.inputWord();
+//            VcsUtils.println("Pirmo žaidėjo laimėjimas" + player1 + p1Cash);
+//
+//            String Balansas2 = VcsUtils.inputWord();
+//            VcsUtils.println("antro žaidėjo laimėjimas" + player2 + p2Cash);
 
-            String laimejimas2 = VcsUtils.inputWord();
-            VcsUtils.println("Pirmo žaidėjo laimėjimas" + player1 + "pinigu likutis:" + p1Cash);
 
-
-            String zodis = VcsUtils.inputWord();
-
-            while (zodis != "baigti") {
-                zodis = VcsUtils.inputWord();
-            }
+//            String zodis = VcsUtils.inputWord();
+//
+//            while (zodis != "baigti") {
+//                zodis = VcsUtils.inputWord();
+//            }
 
             //zaidimo galas
             int plr1Sum = getSum(plr1Hand);
@@ -187,8 +192,10 @@ public class Main {
 
             //----------------------------------
         }//-----main end-----\\
-
     }
+
+
+
 
 
 
