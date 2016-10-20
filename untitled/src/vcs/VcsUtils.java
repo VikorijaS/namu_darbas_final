@@ -11,6 +11,10 @@ public class VcsUtils {
 
     private static Scanner scan = new Scanner(System.in);
 
+    private Scanner newScanner(){
+        return new Scanner(System.in);
+    }
+
     /**
      * Metodas isveda teksta i nauja eilute cmd lange su laiku priekyje
      */

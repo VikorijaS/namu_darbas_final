@@ -33,8 +33,7 @@ public abstract class AbstractDaiktas extends VcsUtils implements Daiktas, VcsEn
 
 
     public String getPerId() {
-        String formatas = "'['ss:mm:HH']' ";
-        SimpleDateFormat sdf = new SimpleDateFormat(formatas);
+        SimpleDateFormat sdf = new SimpleDateFormat("'['ss:mm:HH']' ");
         return purchaseDate + name;
 
 

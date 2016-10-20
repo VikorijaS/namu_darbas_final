@@ -12,9 +12,9 @@ public class Zaislas extends AbstractDaiktas {
         super(name, new Date());
     }
 
-    @Override
-    public Date getPurchaseDate() {
-        return null;
+//    @Override
+//    public Date getPurchaseDate() {
+//        return null;
     }
-}
+
 

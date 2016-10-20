@@ -17,8 +17,13 @@ public class Main {
         User tomas1 = new Tomas("pavarde1","tomas@email1.lt");
         Tomas tomas2 = new Tomas("pavarde2","tomas@email2.lt");
         AbstractUser tomas3 = new Tomas ("pavarde3", "tomas@email3.lt");
+
         Zaislas zaislas = new Zaislas ("pliusinis meskinas");
         VcsUtils.println(zaislas.getPerId());
+
+        String result = VcsUtils.inputWord().split(",")[1];
+        VcsUtils.println(result);
+
 
         if (tomas2 instanceof AbstractUser) ;
         {
