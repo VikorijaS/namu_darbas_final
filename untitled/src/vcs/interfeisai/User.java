@@ -5,7 +5,10 @@ package vcs.interfeisai;
  */
 public interface User {
 
+
     String getName();
     String getLastName();
     String getEmail ();
+
+
 }
