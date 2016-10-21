@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="003f33c1-c978-47c3-ac42-09161e2a16b8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5 paskaita/out/production/Desktop/vcs/Main.class" afterPath="$PROJECT_DIR$/5 paskaita/out/production/Desktop/vcs/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="a988873c-b276-4322-854f-1935f9c007ba" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/.idea/description.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/.idea/project-template.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/out/production/untitled/vcs/Daiktai/Daiktas.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/out/production/untitled/vcs/Users/AbstractUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/out/production/untitled/vcs/Users/Tomas.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/out/production/untitled/vcs/Users/anonimas.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/out/production/untitled/vcs/interfeisai/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/out/production/untitled/vcs/interfeisai/VcsEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/src/vcs/Daiktai/AbstractDaiktas.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/src/vcs/Daiktai/Daiktas.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/src/vcs/Daiktai/Zaislas.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/src/vcs/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/src/vcs/Users/AbstractUser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/src/vcs/Users/Tomas.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/src/vcs/Users/anonimas.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/src/vcs/VcsUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/src/vcs/interfeisai/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/src/vcs/interfeisai/VcsEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/untitled.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5 paskaita/.idea/workspace.xml" afterPath="$PROJECT_DIR$/5 paskaita/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5 paskaita/src/vcs/Main.java" afterPath="$PROJECT_DIR$/5 paskaita/src/vcs/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vcs/Main.java" afterPath="$PROJECT_DIR$/src/vcs/Main.java" />
     </list>
     <ignored path="Wwww.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,33 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/vcs/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VcsUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vcs/VcsUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Combination.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/vcs/Combination.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="0">
+              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -109,8 +106,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -129,26 +124,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Wwww" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Wwww" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -193,17 +172,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="003f33c1-c978-47c3-ac42-09161e2a16b8" name="Default" comment="" />
-      <created>1476978633318</created>
+      <changelist id="a988873c-b276-4322-854f-1935f9c007ba" name="Default" comment="" />
+      <created>1477065917892</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1476978633318</updated>
+      <updated>1477065917892</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -216,7 +195,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -248,26 +227,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/vcs/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vcs/VcsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vcs/Combination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
         </state>
       </provider>
